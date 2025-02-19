@@ -1,33 +1,48 @@
+/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
+/* Encabezado */
 header {
-    background-color: #4CAF50;
+    background-color: #ff6f61;
     color: white;
-    padding: 20px;
+    padding: 20px 10px;
+    font-size: 24px;
 }
 
-main {
-    margin: 20px;
-}
-
+/* Botón principal */
 .btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #008CBA;
-    color: white;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    background: #333;
+.btn:hover {
+    background-color: #ff9900;
     color: white;
+}
+
+/* Sección principal */
+main {
+    padding: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
