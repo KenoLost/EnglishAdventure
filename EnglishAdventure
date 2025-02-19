@@ -1,12 +1,26 @@
-index.html
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Adventures</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a English Adventures</h1>
+    <header>
+        <h1>English Adventures</h1>
+        <p>Aprende inglés de forma divertida con nuestro ebook y juegos interactivos.</p>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>¡Comienza tu aventura en inglés!</h2>
+            <a href="learning.html" class="btn">Ir a las actividades</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 English Adventures - Aprende jugando</p>
+    </footer>
 </body>
 </html>
