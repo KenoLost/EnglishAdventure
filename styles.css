@@ -32,7 +32,8 @@ h1 {
 }
 
 .banner {
-    width: 100%;  /* Ocupa todo el ancho de la página */
-    height: auto; /* Ajusta la altura automáticamente */
-    display: block; /* Evita espacios en blanco alrededor */
+    width: 100%;
+    height: auto;
+    display: block;
 }
+
