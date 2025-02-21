@@ -30,3 +30,9 @@ h1 {
 .btn:hover {
     background-color: #F57C00; /* Naranja oscuro */
 }
+
+.banner {
+    width: 100%;  /* Ocupa todo el ancho de la página */
+    height: auto; /* Ajusta la altura automáticamente */
+    display: block; /* Evita espacios en blanco alrededor */
+}
